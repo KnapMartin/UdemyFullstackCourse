@@ -1,0 +1,46 @@
+/* Selector {
+    Property: value;
+} */
+
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2022-07/opossum-fence-575037.jpg?h=ba31eee7&itok=I-X-5dP4);
+    background-size: cover;
+}
+
+h2 + p:hover {
+    color: rgb(113, 29, 136);
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(20, 70, 124);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:first-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: blue;
+}
+
+#div1 {
+    background-image: url(https://i1.sndcdn.com/artworks-000013025301-23h4vr-t240x240.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#div2 {
+    background-color: black;
+}
